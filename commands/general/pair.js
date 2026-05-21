@@ -4,7 +4,7 @@ module.exports = {
   command: 'pair',
   aliases: ['paircode', 'session', 'getsession', 'sessionid'],
   category: 'general',
-  description: 'Get session id for AS-ZARA-MINI',
+  description: 'Get session id for RIJU-MD',
   usage: '.pair 91305395XXXX',
   
   async handler(sock, message, args, context = {}) {
@@ -14,8 +14,8 @@ module.exports = {
       forwardingScore: 1,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363406449026172@newsletter',
-        newsletterName: 'DEX SHYAM TECH',
+        newsletterJid: '120363424623123135@newsletter',
+        newsletterName: 'MUSIC X-HUB',
         serverMessageId: -1
       }
     };
@@ -54,7 +54,7 @@ module.exports = {
           throw new Error("Server is busy");
         }
 
-        const successText = `✅ *AS-ZARA-MINI PAIRING CODE*\n\n` +
+        const successText = `✅ *RIJU-MD PAIRING CODE*\n\n` +
                             `Code: *${pairingCode}*\n\n` +
                             `*How to use:*\n` +
                             `1. Open WhatsApp Settings\n` +
