@@ -5,9 +5,9 @@
 module.exports = (() => {
     // Plain text fields (user can edit)
     const plainConfig = {
-        ownerNumber: ['917384287404'],
-        ownerName: ['Dex Shyam Chaudhari'],
-        botName: 'AS-ZARA-MINI',
+        ownerNumber: ['917364934516'],
+        ownerName: ['RIJU BISWAS'],
+        botName: 'RIJU-MD',
         prefix: '.',
         sessionName: 'session',
         sessionID: process.env.SESSION_ID || '',
